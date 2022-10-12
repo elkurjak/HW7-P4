@@ -3,17 +3,17 @@ using namespace std;
   
 int main()
 {
-   int i;
-   int n;
+    int n;
     cin >>n;
-    int arr[i];
+    const int ARRAY_SIZE = n;
   
-    for (int i = 0; i < n; ++i){ 
+    
+    for (int i = 0; i < ARRAY_SIZE; ++i){ 
       
-      
+     
       
       }
-        
   
     return 0;
-}
+  
+  }
